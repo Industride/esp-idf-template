@@ -21,6 +21,10 @@
       "ESP_BOARD": "{{ mcu }}"
     }
   },
+  "runArgs": [
+    "--name",
+    "${localEnv:USER}_esp_rust_devcontainer"
+  ],
   "settings": {
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
